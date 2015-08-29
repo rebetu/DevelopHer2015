@@ -198,10 +198,16 @@
         width: 50,
         height: 50
     });
+	
+	// doll
+	var dollImg = new Konva.Image({
+        width: 50,
+        height: 100
+    });
 
     var dressGroup = new Konva.Group({
         x: 50,
-        y: 25,
+        y: 35,
         draggable: true
     });
     layer.add(dressGroup);
@@ -213,7 +219,7 @@
 
     var pantsGroup = new Konva.Group({
         x: 200,
-        y: 25,
+        y: 35,
         draggable: true
     });
     layer.add(pantsGroup);
@@ -225,7 +231,7 @@
 
     var shirtGroup = new Konva.Group({
         x: 350,
-        y: 25,
+        y: 35,
         draggable: true
     });
     layer.add(shirtGroup);
@@ -237,7 +243,7 @@
 
     var skirtGroup = new Konva.Group({
         x: 500,
-        y: 25,
+        y: 35,
         draggable: true
     });
     layer.add(skirtGroup);
@@ -246,7 +252,18 @@
     addAnchor(skirtGroup, 50, 0, 'topRight');
     addAnchor(skirtGroup, 50, 50, 'bottomRight');
     addAnchor(skirtGroup, 0, 50, 'bottomLeft');
-
+	
+	var dollGroup = new Konva.Group({
+        x: 650,
+        y: 35,
+        draggable: true
+    });
+    layer.add(dollGroup);
+    dollGroup.add(dollImg);
+    addAnchor(dollGroup, 0, 0, 'topLeft');
+    addAnchor(dollGroup, 50, 0, 'topRight');
+    addAnchor(dollGroup, 50, 100, 'bottomRight');
+    addAnchor(dollGroup, 0, 100, 'bottomLeft');
 
     var imageObj1 = new Image();
     imageObj1.onload = function() {
@@ -275,10 +292,17 @@
         layer.draw();
     };
     imageObj4.src = 'Images/Skirts/BnW.png';
+	
+	var imageObj5 = new Image();
+    imageObj5.onload = function() {
+        dollImg.image(imageObj5);
+        layer.draw();
+    };
+    imageObj5.src = 'Images/Dolls/doll1.png';
 
 function changeSkinTone () {
 	var mySelect = document.getElementById("skinSelect");
-	document.getElementById("doll").src=mySelect.options[mySelect.selectedIndex].value;
+	imageObj5.src=mySelect.options[mySelect.selectedIndex].value;
 }
 
 function changeBackground () {

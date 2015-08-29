@@ -24,22 +24,14 @@ body {
     width    : 49%;
 }
 
-#famousWomen {
-	float : right;
-	top	: 10 px;
-	height : 9%;
-	width: 49%;
-}
-
 #dollFrame {
 	background-color : white;
     position : absolute;
     top      : 100px;
     right    : 0;
-    height   : 90%;
+    height   : 100%;
     width    : 49%;
 }
-
 
 #blackDress {
 	float	 : right;
@@ -48,7 +40,7 @@ body {
 
 #pants {
 	float	 : right;
-	margin	 : 3px;
+	margin	 : 6px;
 }
 
 #shirt {
@@ -74,7 +66,7 @@ body {
 }
 
 #fieldsetBox {
-	border:0 none;
+	border:none;
 }
 
 #htmlAdd {

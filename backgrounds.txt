@@ -1,0 +1,260 @@
+<body>
+//---------------------------------------
+//Beach Background
+
+</head>
+<beachBackground>
+
+	<background id="sky"> </background>
+	<item1 id="chair"> </item1>
+	<item2 id="boat"> </item2>
+	<item3 id="umbrella"> </item3>
+	<item4 id="starfish"> </item4>
+	
+//CSS
+
+#sky 
+{
+	color: light blue;
+	position: top;
+	width: 100%; 
+}
+
+#chair
+{
+	color: white;
+	position: center;
+	width: 35%;
+}
+
+#boat
+{
+	color: white;
+	position: right;
+	width: 15%;
+}
+
+#umbrella
+{
+	position: top;
+	width: 50%;
+}
+
+#starfish
+{
+	color: yellow;
+	position: bottom;
+	width: 20%;
+}
+
+//-------------------------------------------
+//Field Background>
+
+</head>
+<fieldBackground>
+	<background1 id="sky"> </background1>
+	<background2 id="clouds"> </clouds>
+	<item1 id="hills"> </item1>
+	<item2 id="sun"> </item3>
+	<item3 id="road"> </item2>
+	
+//CSS
+
+#sky 
+{
+	color: light blue;
+	position: top;
+	width: 100%; 
+}
+
+#clouds
+{
+	color: white;
+	position: top;
+	width: 100%;
+}
+
+#hills
+{
+	color: light green;
+	position: bottom;
+	width: 100%;
+}
+
+#sun
+{
+	color: yellow;
+	position: top;
+	width: 25%;
+}
+
+#road
+{
+	color: tan;
+	position: bottom;
+	width: 10%;
+}
+
+//------------------------------------------
+//Forest Background>
+
+//HTML
+
+</head>
+<forestBackground>
+	<background1 id="grass"> </background1>
+	<background2 id="sky"> </background2>
+	<background3 id="mountains"> </background3>
+	<background4 id="sun"> </background4>
+	<item1 id="trees"> </item1>
+	<item2 id="log"> </item2>
+	<item3 id="mushroom"> </item3>
+	<item4 id="puddle"> </item4>
+
+//CSS
+
+#grass
+{
+	color: light green;
+	position: bottom;
+	width: 100%; 
+}
+
+#sky
+{
+	color: blue;
+	position: top;
+	width: 100%;
+}
+
+#mountains
+{
+	color: brown;
+	position: top;
+	width: 100%;
+}
+
+#sun
+{
+	color: yellow;
+	position: top; 
+	width: 15%;
+}
+
+#trees
+{
+	color: dark green;
+	position: top;
+	width: 100%;
+}
+
+#log
+{
+	color: dark brown;
+	width: 25%;
+}
+
+#mushroom
+{
+	position: bottom; 
+	width: 15%;
+}
+
+#puddle
+{
+	color: light blue;
+	position: bottom;
+	width: 25%;
+}
+//-----------------------------------------------------
+//Mall Background
+
+//HTML
+
+</head>
+<mallBackground>
+	<background1 id="stores"> </background1>
+	<background2 id="people"> </background2>
+	<background3 id="roof"> </background3>
+	<background4 id="floor"> </background4>
+	<item1 id="tables"> </item1>
+	<item2 id="fountain"> </item2>
+
+//CSS
+
+#stores
+{
+	color: orange;
+	position: top;
+	width: 100%; 
+}
+
+#people
+{
+	position: bottom;
+	width: 100%;
+}
+
+#roof
+{
+	color: blue;
+	position: top;
+	width: 100%;
+}
+
+#floor
+{
+	color: light blue;
+	position: bottom; 
+	width: 100%;
+}
+
+#tables
+{
+	color: dark green;
+	position: bottom;
+	width: 25%;
+}
+
+#fountain
+{
+	color: blue;
+	position: center;
+	width: 15%;
+}
+//---------------------------------------
+//School Background>
+
+//HTML
+
+</head>
+<schoolBackground>
+	<background1 id="air"> </background1>
+	<item1 id="school"> </item1>
+	<item2 id="tree"> </item2>
+
+//CSS
+
+#air
+{
+	color: white;
+	position: auto; //is this all?
+	width: 100%; 
+}
+
+#school
+{
+	color: red;
+	position: center;
+	width: 50%;
+}
+
+#tree
+{
+	color: green;
+	position: left;
+	width: 50%;
+}
+
+
+

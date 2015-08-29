@@ -1,4 +1,6 @@
-
+function resetText(val) {
+	parent.document.getElementById("htmlInput").value = val;
+}
 var dressColor;
 var dressSize;
 var pantColor;

@@ -4,6 +4,7 @@
 <title>DevelopHer2015</title>
 <meta charset="UTF-8">
 <link href="index-style.css" type="text/css" rel="stylesheet" />
+<script src="variables.js" type="text/javascript"></script>
 </head>
 
 <div id="background">
@@ -291,6 +292,8 @@ body {
 function changeSkinTone () {
 	var mySelect = document.getElementById("skinSelect");
 	imageObj5.src=mySelect.options[mySelect.selectedIndex].value;
+	var skinColor = "pale";
+	resetText(skinColor);
 }
 function changeBackground () {
 	var mySelect = document.getElementById("backgroundSelect");

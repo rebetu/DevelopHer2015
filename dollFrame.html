@@ -13,9 +13,6 @@
 
 <div id="container"></div>
 
-<img id="doll" src="Images/Dolls/doll1.png" class="draggable"/>
-<img id="background" src="Images/Scenes/School/schoolBackground.jpg"/>
-
 <div id="colorSelect">
 	
 	<select id="skinSelect" onchange="changeSkinTone()">
@@ -307,7 +304,7 @@ function changeSkinTone () {
 
 function changeBackground () {
 	var mySelect = document.getElementById("backgroundSelect");
-	document.getElementById("background").src=mySelect.options[mySelect.selectedIndex].value;
+	document.body.style.backgroundImage=mySelect.options[mySelect.selectedIndex].value;
 }
 
 function changeDressColor () {

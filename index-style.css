@@ -72,3 +72,12 @@ body {
 	height	 : 100%;
 	width	 : 100%;
 }
+
+#fieldsetBox {
+	border:0 none;
+}
+
+#htmlAdd {
+	padding: 0;
+	border: none;
+}

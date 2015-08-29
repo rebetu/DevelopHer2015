@@ -26,9 +26,6 @@ body {
 
 <div id="container"></div>
 
-<img id="doll" src="Images/Dolls/doll1.png" class="draggable"/>
-<img id="background" src="Images/Scenes/School/schoolBackground.jpg"/>
-
 <div id="colorSelect">
 	
 	<select id="skinSelect" onchange="changeSkinTone()">
@@ -212,9 +209,9 @@ body {
     layer.add(dollGroup);
     dollGroup.add(dollImg);
     addAnchor(dollGroup, 0, 0, 'topLeft');
-    addAnchor(dollGroup, 50, 0, 'topRight');
-    addAnchor(dollGroup, 50, 100, 'bottomRight');
-    addAnchor(dollGroup, 0, 100, 'bottomLeft');
+    addAnchor(dollGroup, 150, 0, 'topRight');
+    addAnchor(dollGroup, 150, 300, 'bottomRight');
+    addAnchor(dollGroup, 0, 300, 'bottomLeft');
     var dressGroup = new Konva.Group({
         x: 50,
         y: 35,

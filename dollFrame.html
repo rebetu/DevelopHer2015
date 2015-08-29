@@ -5,6 +5,19 @@
 <meta charset="UTF-8">
 <link href="index-style.css" type="text/css" rel="stylesheet" />
 </head>
+
+<div id="background">
+<style>
+body {
+    background-image: url("Images/Scenes/School/schoolBackground.jpg");
+    background-size: 550px 510px;
+    background-repeat: no-repeat;
+    background-position: 60% 10%;
+}
+</style>
+</div>
+
+
 <body>
 <script src="interact-1.2.4.js"></script>
 <script src="dragging.js"></script>
@@ -198,9 +211,21 @@
 	
 	// doll
 	var dollImg = new Konva.Image({
-        width: 50,
-        height: 100
+        width: 150,
+        height: 300
     });
+
+    var dollGroup = new Konva.Group({
+        x: 250,
+        y: 290,
+        draggable: true
+    });
+    layer.add(dollGroup);
+    dollGroup.add(dollImg);
+    addAnchor(dollGroup, 0, 0, 'topLeft');
+    addAnchor(dollGroup, 50, 0, 'topRight');
+    addAnchor(dollGroup, 50, 100, 'bottomRight');
+    addAnchor(dollGroup, 0, 100, 'bottomLeft');
 
     var dressGroup = new Konva.Group({
         x: 50,
@@ -250,17 +275,6 @@
     addAnchor(skirtGroup, 50, 50, 'bottomRight');
     addAnchor(skirtGroup, 0, 50, 'bottomLeft');
 	
-	var dollGroup = new Konva.Group({
-        x: 650,
-        y: 35,
-        draggable: true
-    });
-    layer.add(dollGroup);
-    dollGroup.add(dollImg);
-    addAnchor(dollGroup, 0, 0, 'topLeft');
-    addAnchor(dollGroup, 50, 0, 'topRight');
-    addAnchor(dollGroup, 50, 100, 'bottomRight');
-    addAnchor(dollGroup, 0, 100, 'bottomLeft');
 
     var imageObj1 = new Image();
     imageObj1.onload = function() {

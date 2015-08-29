@@ -1,0 +1,44 @@
+#htmlInput {
+    position : absolute;
+    top      : 150px;
+    left     : 0;
+    height   : 50%;
+    width    : 49%;
+}
+
+#cssInput {
+    position : absolute;
+    top      : 600px;
+    left     : 0;
+    height   : 50%;
+    width    : 49%;
+}
+
+#dollFrame {
+    position : absolute;
+    top      : 150px;
+    right    : 0;
+    height   : 100%;
+    width    : 49%;
+}
+
+#blackDress {
+	float	 : right;
+}
+
+#pants {
+	float	 : right;
+}
+
+#shirt {
+	float	 : right;
+}
+
+#skirt {
+	float	 : right;
+}
+
+#colorSelect {
+	float	 : right;
+	
+}

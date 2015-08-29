@@ -39,7 +39,7 @@ body {
 	</select>
 	
 	<select id="backgroundSelect" onchange="changeBackground()">
-		<option value="Images/Dresses/blackDress.png">Background</option>
+		<option value="Images/Scenes/School/schoolBackground.jpg">Background</option>
 		<option value="Images/Scenes/Beach/beachBackground.jpg">Beach</option>
 		<option value="Images/Scenes/Field/fieldBackground.jpg">Field</option>
 		<option value="Images/Scenes/Forest/forestBackground.jpg">Forest</option>
@@ -298,7 +298,17 @@ function changeSkinTone () {
 }
 function changeBackground () {
 	var mySelect = document.getElementById("backgroundSelect");
-	document.getElementById("background").src=mySelect.options[mySelect.selectedIndex].value;
+	var myOption = mySelect.options[mySelect.selectedIndex].value;
+	if (myOption == "Images/Scenes/School/schoolBackground.jpg") {
+	document.body.style.backgroundImage="url('Images/Scenes/School/schoolBackground.jpg')";}
+	else if (myOption == "Images/Scenes/Mall/mallBackground.jpg") {
+	document.body.style.backgroundImage="url('Images/Scenes/Mall/mallBackground.jpg')";}
+	else if (myOption == "Images/Scenes/Beach/beachBackground.jpg") {
+	document.body.style.backgroundImage="url('Images/Scenes/Beach/beachBackground.jpg')";}
+	else if (myOption == "Images/Scenes/Field/fieldBackground.jpg") {
+	document.body.style.backgroundImage="url('Images/Scenes/Field/fieldBackground.jpg')";}
+	else if (myOption == "Images/Scenes/Forest/forestBackground.jpg") {
+	document.body.style.backgroundImage="url('Images/Scenes/Forest/forestBackground.jpg')";}
 }
 function changeDressColor () {
 	var mySelect = document.getElementById("dressColor");

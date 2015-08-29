@@ -1,4 +1,3 @@
-
 var dressColor;
 var dressSize;
 var pantColor;

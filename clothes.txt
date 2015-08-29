@@ -1,0 +1,454 @@
+#dress
+{
+	color: black
+	size: small
+{
+
+#dress
+{
+	color: black
+	size: medium
+{
+
+#dress
+{
+	color: black
+	size: large
+{
+
+#dress
+{
+	color: blue
+	size: small
+{
+
+#dress
+{
+	color: blue
+	size: medium
+{
+
+#dress
+{
+	color: blue
+	size: large
+{
+
+#dress
+{
+	color: gray
+	size: small
+{
+
+#dress
+{
+	color: gray
+	size: medium
+{
+
+#dress
+{
+	color: gray
+	size: large
+{
+
+#dress
+{
+	color: green
+	size: small
+{
+
+#dress
+{
+	color: green
+	size: medium
+{
+
+#dress
+{
+	color: green
+	size: large
+{
+
+#dress
+{
+	color: lightpink
+	size: small
+{
+
+#dress
+{
+	color: lightpink
+	size: medium
+{
+
+#dress
+{
+	color: lightpink
+	size: large
+{
+
+#dress
+{
+	color: orange
+	size: small
+{
+
+#dress
+{
+	color: orange
+	size: medium
+{
+
+#dress
+{
+	color: orange
+	size: large
+{
+
+#dress
+{
+	color: purple
+	size: small
+{
+
+#dress
+{
+	color: purple
+	size: medium
+{
+
+#dress
+{
+	color: purple
+	size: large
+{
+
+#dress
+{
+	color: red
+	size: small
+{
+
+#dress
+{
+	color: red
+	size: medium
+{
+
+#dress
+{
+	color: red
+	size: large
+{
+
+#pants
+{
+	color: blue
+	size: small
+{
+
+#pants
+{
+	color: blue
+	size: medium
+{
+
+#pants
+{
+	color: blue
+	size: large
+{
+
+#pants
+{
+	color: green
+	size: small
+{
+
+#pants
+{
+	color: green
+	size: medium
+{
+
+#pants
+{
+	color: green
+	size: large
+{
+
+#pants
+{
+	color: orange
+	size: small
+{
+
+#pants
+{
+	color: orange
+	size: medium
+{
+
+#pants
+{
+	color: orange
+	size: large
+{
+
+#pants
+{
+	color: purple
+	size: small
+{
+
+#pants
+{
+	color: purple
+	size: medium
+{
+
+#pants
+{
+	color: purple
+	size: large
+{
+
+#pants
+{
+	color: red
+	size: small
+{
+
+#pants
+{
+	color: red
+	size: medium
+{
+
+#pants
+{
+	color: red
+	size: large
+{
+
+#pants
+{
+	color: teal
+	size: small
+{
+
+#pants
+{
+	color: teal
+	size: medium
+{
+
+#pants
+{
+	color: teal
+	size: large
+{
+
+#shirt
+{
+	color: black, blue
+	size: small
+{
+
+#shirt
+{
+	color: black, blue
+	size: medium
+{
+
+#shirt
+{
+	color: black, blue
+	size: large
+{
+
+#shirt
+{
+	color: green
+	size: small
+{
+
+#shirt
+{
+	color: green
+	size: medium
+{
+
+#shirt
+{
+	color: green
+	size: large
+{
+
+#shirt
+{
+	color: navy
+	size: small
+{
+
+#shirt
+{
+	color: navy
+	size: medium
+{
+
+#shirt
+{
+	color: navy
+	size: large
+{
+
+#shirt
+{
+	color: pink
+	size: small
+{
+
+#shirt
+{
+	color: pink
+	size: medium
+{
+
+#shirt
+{
+	color: pink
+	size: large
+{
+
+#shirt
+{
+	color: purple
+	size: small
+{
+
+#shirt
+{
+	color: purple
+	size: medium
+{
+
+#shirt
+{
+	color: purple
+	size: large
+{
+
+#skirt
+{
+	color: blue
+	size: small
+{
+
+#skirt
+{
+	color: blue
+	size: medium
+{
+
+#skirt
+{
+	color: blue
+	size: large
+{
+
+#skirt
+{
+	color: gray
+	size: small
+{
+
+#skirt
+{
+	color: gray
+	size: medium
+{
+
+#skirt
+{
+	color: gray
+	size: large
+{
+
+#skirt
+{
+	color: green
+	size: small
+{
+
+#skirt
+{
+	color: green
+	size: medium
+{
+
+#skirt
+{
+	color: green
+	size: large
+{
+
+#skirt
+{
+	color: orange
+	size: small
+{
+
+#skirt
+{
+	color: orange
+	size: medium
+{
+
+#skirt
+{
+	color: orange
+	size: large
+{
+
+#skirt
+{
+	color: pink
+	size: small
+{
+
+#skirt
+{
+	color: pink
+	size: medium
+{
+
+#skirt
+{
+	color: pink
+	size: large
+{
+
+#skirt
+{
+	color: red
+	size: small
+{
+
+#skirt
+{
+	color: red
+	size: medium
+{
+
+#skirt
+{
+	color: red
+	size: large
+{
+
+
+
+
+

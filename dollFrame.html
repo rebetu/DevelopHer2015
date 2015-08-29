@@ -48,45 +48,45 @@ body {
 	</select>
 
 	<select id="dressColor" onchange="changeDressColor()">
-		<option value="Images/Dresses/blackDress.png">Dress Color</option>
-		<option value="Images/Dresses/blackDress.png" style="background:black"></option>
-		<option value="Images/Dresses/blueDress.png" style="background:blue"></option>
-		<option value="Images/Dresses/grayDress.png" style="background:gray"></option>
-		<option value="Images/Dresses/greenDress.png" style="background:green"></option>
-		<option value="Images/Dresses/lightpinkDress.png" style="background:pink"></option>
-		<option value="Images/Dresses/orangeDress.png" style="background:orange"></option>
-		<option value="Images/Dresses/purpleDress.png" style="background:purple"></option>
-		<option value="Images/Dresses/redDress.png" style="background:red"></option>
+		<option value="black">Dress Color</option>
+		<option value="black" style="background:black"></option>
+		<option value="blue" style="background:blue"></option>
+		<option value="gray" style="background:gray"></option>
+		<option value="green" style="background:green"></option>
+		<option value="lightpink" style="background:pink"></option>
+		<option value="orange" style="background:orange"></option>
+		<option value="purple" style="background:purple"></option>
+		<option value="red" style="background:red"></option>
 	</select>
 
 	<select id="pantsColor" onchange="changePantsColor()">
-		<option value="Images/Pants/BnW.png">Pants Color</option>
-		<option value="Images/Pants/bluePants.png" style="background:blue"></option>
-		<option value="Images/Pants/greenPants.png" style="background:green"></option>
-		<option value="Images/Pants/orangePants.png" style="background:orange"></option>
-		<option value="Images/Pants/purplePants.png" style="background:purple"></option>
-		<option value="Images/Pants/redPants.png" style="background:red"></option>
-		<option value="Images/Pants/tealPants.png" style="background:#008080"></option>
+		<option value="BnW">Pants Color</option>
+		<option value="blue" style="background:blue"></option>
+		<option value="green" style="background:green"></option>
+		<option value="orange" style="background:orange"></option>
+		<option value="purple" style="background:purple"></option>
+		<option value="red" style="background:red"></option>
+		<option value="teal" style="background:#008080"></option>
 	</select>
 
 	<select id="shirtColor" onchange="changeShirtColor()">
-		<option value="Images/Shirts/BnW.png">Shirt Color</option>
-		<option value="Images/Shirts/blackShirt.png" style="background:black"></option>
-		<option value="Images/Shirts/blueShirt.png" style="background:blue"></option>
-		<option value="Images/Shirts/greenShirt.png" style="background:green"></option>
-		<option value="Images/Shirts/navyShirt.png" style="background:navy"></option>
-		<option value="Images/Shirts/pinkShirt.png" style="background:pink"></option>
-		<option value="Images/Shirts/purpleShirt.png" style="background:purple"></option>
+		<option value="BnW">Shirt Color</option>
+		<option value="black" style="background:black"></option>
+		<option value="blue" style="background:blue"></option>
+		<option value="green" style="background:green"></option>
+		<option value="navy" style="background:navy"></option>
+		<option value="pink" style="background:pink"></option>
+		<option value="purple" style="background:purple"></option>
 	</select>
 
 	<select id="skirtColor" onchange="changeSkirtColor()">
-		<option value="Images/Skirts/BnW.png">Skirt Color</option>
-		<option value="Images/Skirts/blueSkirt.png" style="background:blue"></option>
-		<option value="Images/Skirts/graySkirt.png" style="background:gray"></option>
-		<option value="Images/Skirts/greenSkirt.png" style="background:green"></option>
-		<option value="Images/Skirts/orangeSkirt.png" style="background:orange"></option>
-		<option value="Images/Skirts/pinkSkirt.png" style="background:pink"></option>
-		<option value="Images/Skirts/redSkirt.png" style="background:red"></option>
+		<option value="BnW">Skirt Color</option>
+		<option value="blue" style="background:blue"></option>
+		<option value="gray" style="background:gray"></option>
+		<option value="green" style="background:green"></option>
+		<option value="orange" style="background:orange"></option>
+		<option value="pink" style="background:pink"></option>
+		<option value="red" style="background:red"></option>
 	</select>
 </div>
 
@@ -312,19 +312,77 @@ function changeBackground () {
 }
 function changeDressColor () {
 	var mySelect = document.getElementById("dressColor");
-	imageObj1.src=mySelect.options[mySelect.selectedIndex].value;
+	var myOption = mySelect.options[mySelect.selectedIndex].value;
+	if (myOption == "black") {
+		imageObj1.src="Images/Dresses/blackDress.png";}
+	else if (myOption == "blue") {
+		imageObj1.src="Images/Dresses/blueDress.png";}
+	else if (myOption == "gray") {
+		imageObj1.src="Images/Dresses/grayDress.png";}
+	else if (myOption == "green") {
+		imageObj1.src="Images/Dresses/greenDress.png";}
+	else if (myOption == "lightpink") {
+		imageObj1.src="Images/Dresses/lightpinkDress.png";}
+	else if (myOption == "orange") {
+		imageObj1.src="Images/Dresses/orangeDress.png";}
+	else if (myOption == "purple") {
+		imageObj1.src="Images/Dresses/purpleDress.png";}
+	else if (myOption == "red") {
+		imageObj1.src="Images/Dresses/redDress.png";}
 }
 function changePantsColor () {
 	var mySelect = document.getElementById("pantsColor");
-	imageObj2.src=mySelect.options[mySelect.selectedIndex].value;
+	var myOption = mySelect.options[mySelect.selectedIndex].value;
+	if (myOption == "BnW") {
+		imageObj2.src="Images/Pants/BnW.png";}
+	else if (myOption == "blue") {
+		imageObj2.src="Images/Pants/bluePants.png";}
+	else if (myOption == "teal") {
+		imageObj2.src="Images/Pants/tealPants.png";}
+	else if (myOption == "green") {
+		imageObj2.src="Images/Pants/greenPants.png";}
+	else if (myOption == "red") {
+		imageObj2.src="Images/Pants/redPants.png";}
+	else if (myOption == "orange") {
+		imageObj2.src="Images/Pants/orangePants.png";}
+	else if (myOption == "purple") {
+		imageObj2.src="Images/Pants/purplePants.png";}
 }
 function changeShirtColor () {
 	var mySelect = document.getElementById("shirtColor");
-	imageObj3.src=mySelect.options[mySelect.selectedIndex].value;
+	var myOption = mySelect.options[mySelect.selectedIndex].value;
+	if (myOption == "black") {
+		imageObj3.src="Images/Shirts/blackShirt.png";}
+	else if (myOption == "blue") {
+		imageObj3.src="Images/Shirts/blueShirt.png";}
+	else if (myOption == "BnW") {
+		imageObj3.src="Images/Shirts/BnW.png";}
+	else if (myOption == "green") {
+		imageObj3.src="Images/Shirts/greenShirt.png";}
+	else if (myOption == "pink") {
+		imageObj3.src="Images/Shirts/pinkShirt.png";}
+	else if (myOption == "navy") {
+		imageObj3.src="Images/Shirts/navyShirt.png";}
+	else if (myOption == "purple") {
+		imageObj3.src="Images/Shirts/purpleShirt.png";}
 }
 function changeSkirtColor () {
 	var mySelect = document.getElementById("skirtColor");
-	imageObj4.src=mySelect.options[mySelect.selectedIndex].value;
+	var myOption = mySelect.options[mySelect.selectedIndex].value;
+	if (myOption == "gray") {
+		imageObj4.src="Images/Skirts/graySkirt.png";}
+	else if (myOption == "blue") {
+		imageObj4.src="Images/Skirts/blueSkirt.png";}
+	else if (myOption == "BnW") {
+		imageObj4.src="Images/Skirts/BnW.png";}
+	else if (myOption == "green") {
+		imageObj4.src="Images/Skirts/greenSkirt.png";}
+	else if (myOption == "pink") {
+		imageObj4.src="Images/Skirts/pinkSkirt.png";}
+	else if (myOption == "orange") {
+		imageObj4.src="Images/Skirts/orangeSkirt.png";}
+	else if (myOption == "red") {
+		imageObj4.src="Images/Skirts/redSkirt.png";}
 }
  </script>
 

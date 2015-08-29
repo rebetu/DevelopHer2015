@@ -8,11 +8,77 @@
 <body>
 <script src="interact-1.2.4.js"></script>
 <script src="dragging.js"></script>
+<script src="variables.js" type="text/javascript"></script>
 
 <img id="blackDress" src="Images/Dresses/blackDress.png" class="draggable" height="50" width="50"/>
 <img id="pants" src="Images/Pants/BnW.png" class="draggable" height="50" width="50"/>
 <img id="shirt" src="Images/Shirts/BnW.png" class="draggable" height="50" width="50"/>
 <img id="skirt" src="Images/Skirts/BnW.png" class="draggable" height="50" width="50"/>
+
+<img id="doll" src="Images/Dolls/doll1.png" class="draggable"/>
+<img id="background" src="Images/Scenes/School/schoolBackground.jpg"/>
+
+<div id="colorSelect">
+	
+	<select id="skinSelect" onchange="changeSkinTone()">
+		<option value="Images/Dolls/doll1.png">Skin Tone</option>
+		<option value="Images/Dolls/doll1.png" style="background:#FFFFCC"></option>
+		<option value="Images/Dolls/doll2.png" style="background:#FFFF99"></option>
+		<option value="Images/Dolls/doll3.png" style="background:#CC7A29"></option>
+		<option value="Images/Dolls/doll4.png" style="background:#966C19"></option>
+	</select>
+	
+	<select id="backgroundSelect" onchange="changeBackground()">
+		<option value="Images/Dresses/blackDress.png">Background</option>
+		<option value="Images/Scenes/Beach/beachBackground.jpg">Beach</option>
+		<option value="Images/Scenes/Field/fieldBackground.jpg">Field</option>
+		<option value="Images/Scenes/Forest/forestBackground.jpg">Forest</option>
+		<option value="Images/Scenes/Mall/mallBackground.jpg">Mall</option>
+		<option value="Images/Scenes/School/schoolBackground.jpg">School</option>
+	</select>
+
+	<select id="dressColor" onchange="changeDressColor()">
+		<option value="Images/Dresses/blackDress.png">Dress Color</option>
+		<option value="Images/Dresses/blackDress.png" style="background:black"></option>
+		<option value="Images/Dresses/blueDress.png" style="background:blue"></option>
+		<option value="Images/Dresses/grayDress.png" style="background:gray"></option>
+		<option value="Images/Dresses/greenDress.png" style="background:green"></option>
+		<option value="Images/Dresses/lightpinkDress.png" style="background:pink"></option>
+		<option value="Images/Dresses/orangeDress.png" style="background:orange"></option>
+		<option value="Images/Dresses/purpleDress.png" style="background:purple"></option>
+		<option value="Images/Dresses/redDress.png" style="background:red"></option>
+	</select>
+
+	<select id="pantsColor" onchange="changePantsColor()">
+		<option value="Images/Pants/BnW.png">Pants Color</option>
+		<option value="Images/Pants/bluePants.png" style="background:blue"></option>
+		<option value="Images/Pants/greenPants.png" style="background:green"></option>
+		<option value="Images/Pants/orangePants.png" style="background:orange"></option>
+		<option value="Images/Pants/purplePants.png" style="background:purple"></option>
+		<option value="Images/Pants/redPants.png" style="background:red"></option>
+		<option value="Images/Pants/tealPants.png" style="background:#008080"></option>
+	</select>
+
+	<select id="shirtColor" onchange="changeShirtColor()">
+		<option value="Images/Shirts/BnW.png">Shirt Color</option>
+		<option value="Images/Shirts/blackShirt.png" style="background:black"></option>
+		<option value="Images/Shirts/blueShirt.png" style="background:blue"></option>
+		<option value="Images/Shirts/greenShirt.png" style="background:green"></option>
+		<option value="Images/Shirts/navyShirt.png" style="background:navy"></option>
+		<option value="Images/Shirts/pinkShirt.png" style="background:pink"></option>
+		<option value="Images/Shirts/purpleShirt.png" style="background:purple"></option>
+	</select>
+
+	<select id="skirtColor" onchange="changeSkirtColor()">
+		<option value="Images/Skirts/BnW.png">Skirt Color</option>
+		<option value="Images/Skirts/blueSkirt.png" style="background:blue"></option>
+		<option value="Images/Skirts/graySkirt.png" style="background:gray"></option>
+		<option value="Images/Skirts/greenSkirt.png" style="background:green"></option>
+		<option value="Images/Skirts/orangeSkirt.png" style="background:orange"></option>
+		<option value="Images/Skirts/pinkSkirt.png" style="background:pink"></option>
+		<option value="Images/Skirts/redSkirt.png" style="background:red"></option>
+	</select>
+</div>
 
 
 

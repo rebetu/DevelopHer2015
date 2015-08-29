@@ -1,3 +1,33 @@
+function changeSkinTone () {
+	var mySelect = document.getElementById("skinSelect");
+	document.getElementById("doll").src=mySelect.options[mySelect.selectedIndex].value;
+}
+
+function changeBackground () {
+	var mySelect = document.getElementById("backgroundSelect");
+	document.getElementById("background").src=mySelect.options[mySelect.selectedIndex].value;
+}
+
+function changeDressColor () {
+	var mySelect = document.getElementById("dressColor");
+	document.getElementById("blackDress").src=mySelect.options[mySelect.selectedIndex].value;
+}
+
+function changePantsColor () {
+	var mySelect = document.getElementById("pantsColor");
+	document.getElementById("pants").src=mySelect.options[mySelect.selectedIndex].value;
+}
+
+function changeShirtColor () {
+	var mySelect = document.getElementById("shirtColor");
+	document.getElementById("shirt").src=mySelect.options[mySelect.selectedIndex].value;
+}
+
+function changeSkirtColor () {
+	var mySelect = document.getElementById("skirtColor");
+	document.getElementById("skirt").src=mySelect.options[mySelect.selectedIndex].value;
+}
+
 var dressColor;
 var dressSize;
 var pantColor;
